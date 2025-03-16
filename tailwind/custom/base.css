@@ -1,0 +1,39 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `base` layer
+ */
+
+/**
+ * This uses the background and foreground colors declared in the `theme.json`
+ * file and is applied both to the front end and in the block editor.
+ */
+body {
+	@apply bg-background text-foreground font-sans;
+}
+
+@layer base {
+	:root {
+		--purple: #231B53;
+		--dark-purple: #1F1946;
+		--pink: #BD1550;
+		--yellow: #FFC259;
+		--gray: #f8f9fa;
+	}
+}
+
+.gradient-background {
+	background: linear-gradient(300deg,#ffc259,#231b53,#bd1550);
+	background-size: 180% 180%;
+	animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+	0% {
+	  background-position: 0% 50%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+	100% {
+	  background-position: 0% 50%;
+	}
+  }
