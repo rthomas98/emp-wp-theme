@@ -12,6 +12,42 @@ if ( get_field( 'blocks' ) ) :
             include( get_stylesheet_directory() . '/acf-blocks/header-37.php' );
         endif;
 
+        if ( get_row_layout() == 'header_116' ):
+            include( get_stylesheet_directory() . '/acf-blocks/header-116.php' );
+        endif;
+
+        if ( get_row_layout() == 'header_118' ):
+            include( get_stylesheet_directory() . '/acf-blocks/header-118.php' );
+        endif;
+
+        if ( get_row_layout() == 'layout_373' ):
+            include( get_stylesheet_directory() . '/acf-blocks/layout-373.php' );
+        endif;
+
+        if ( get_row_layout() == 'layout_403' ):
+            include( get_stylesheet_directory() . '/acf-blocks/layout-403.php' );
+        endif;
+
+        if ( get_row_layout() == 'layout_4' ):
+            include( get_stylesheet_directory() . '/acf-blocks/layout-4.php' );
+        endif;
+
+        if ( get_row_layout() == 'layout_245' ):
+            include( get_stylesheet_directory() . '/acf-blocks/layout-245.php' );
+        endif;
+
+        if ( get_row_layout() == 'cta_39' ):
+            include( get_stylesheet_directory() . '/acf-blocks/cta-39.php' );
+        endif;
+
+        if ( get_row_layout() == 'layout_194' ):
+            include( get_stylesheet_directory() . '/acf-blocks/layout-194.php' );
+        endif;
+
+        if ( get_row_layout() == 'layout_239' ):
+            include( get_stylesheet_directory() . '/acf-blocks/layout-239.php' );
+        endif;
+
         if ( get_row_layout() == 'layout_242' ):
             include( get_stylesheet_directory() . '/acf-blocks/layout-242.php' );
         endif;
@@ -31,13 +67,17 @@ if ( get_field( 'blocks' ) ) :
         if ( get_row_layout() == 'layout_195' ):
             include( get_stylesheet_directory() . '/acf-blocks/layout-195.php' );
         endif;
-
+    
         if ( get_row_layout() == 'layout_22' ):
             include( get_stylesheet_directory() . '/acf-blocks/layout-22.php' );
         endif;
 
         if ( get_row_layout() == 'layout_374' ):
             include( get_stylesheet_directory() . '/acf-blocks/layout-374.php' );
+        endif;
+
+        if ( get_row_layout() == 'layout_116' ):
+            include( get_stylesheet_directory() . '/acf-blocks/layout-116.php' );
         endif;
 
         if ( get_row_layout() == 'layout_12' ):
@@ -88,8 +128,16 @@ if ( get_field( 'blocks' ) ) :
             include( get_stylesheet_directory() . '/acf-blocks/cta-3.php' );
         endif;
 
+        if ( get_row_layout() == 'cta_1' ):
+            include( get_stylesheet_directory() . '/acf-blocks/cta-1.php' );
+        endif;
+
         if ( get_row_layout() == 'cta_31' ):
             include( get_stylesheet_directory() . '/acf-blocks/cta-31.php' );
+        endif;
+
+        if ( get_row_layout() == 'blog_41' ):
+            include( get_stylesheet_directory() . '/acf-blocks/blog-41.php' );
         endif;
 
     endwhile;

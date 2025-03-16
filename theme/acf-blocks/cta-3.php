@@ -75,7 +75,7 @@ if (empty($button_two_link)) {
 
 <section class="cta-3 relative px-[5%] py-16 md:py-24 lg:py-28">
     <div class="container relative z-10">
-        <div class="w-full max-w-lg">
+        <div class="w-full max-w-3xl">
             <h2 class="mb-5 text-4xl font-bold font-heading text-white md:mb-6 md:text-5xl lg:text-6xl">
                 <?php echo esc_html($header); ?>
             </h2>
