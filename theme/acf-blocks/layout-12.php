@@ -85,7 +85,7 @@ if (empty($cards)) {
 ?>
 
 <section class="layout-12 px-[5%] py-16 md:py-24 lg:py-28 bg-white">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
             <div>
                 <h2 class="mb-5 text-4xl font-bold font-heading leading-[1.2] text-purple md:mb-6 md:text-5xl lg:text-6xl">

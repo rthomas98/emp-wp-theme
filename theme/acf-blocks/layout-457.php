@@ -125,7 +125,7 @@ if (empty($button_two_link)) {
 ?>
 
 <section class="layout-457 overflow-hidden px-[5%] py-16 md:py-24 lg:py-28 bg-white">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="mb-12 max-w-3xl md:mb-18 lg:mb-20">
             <p class="mb-3 font-semibold font-body text-purple md:mb-4">
                 <?php echo esc_html($sub_header); ?>

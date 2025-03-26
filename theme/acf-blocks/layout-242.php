@@ -93,7 +93,7 @@ if (empty($cards)) {
 ?>
 
 <section class="layout-242 px-[5%] py-16 md:py-24 lg:py-28 gradient-background">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="flex flex-col items-start">
             <div class="mb-12 w-full max-w-4xl md:mb-18 lg:mb-20">
                 <h2 class="text-4xl font-bold font-heading leading-[1.2] text-white md:text-5xl lg:text-6xl">

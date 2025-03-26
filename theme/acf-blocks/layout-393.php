@@ -83,7 +83,7 @@ if (empty($cards) || count($cards) < 4) {
 ?>
 
 <section class="layout-393 px-[5%] py-16 md:py-24 lg:py-28 gradient-background">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="mx-auto mb-12 w-full max-w-3xl text-center md:mb-18 lg:mb-20">
             <p class="mb-3 font-semibold font-body md:mb-4 text-white">
                 <?php echo esc_html($sub_header); ?>

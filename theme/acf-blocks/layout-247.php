@@ -103,7 +103,7 @@ if (empty($button_secondary_text)) {
 ?>
 
 <section class="layout-247 px-[5%] py-16 md:py-24 lg:py-28 bg-white">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="mb-12 grid grid-cols-1 items-start gap-5 md:mb-18 md:grid-cols-2 md:gap-x-12 lg:mb-20 lg:gap-x-20">
             <div>
                 <p class="mb-3 font-semibold font-body text-pink md:mb-4">

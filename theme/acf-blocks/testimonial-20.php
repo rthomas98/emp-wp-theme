@@ -76,7 +76,7 @@ if (empty($testimonials)) {
 ?>
 
 <section class="testimonial-20 overflow-hidden px-[5%] py-16 md:py-24 lg:py-28 bg-pink">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="mb-12 md:mb-18 lg:mb-20">
             <h2 class="mb-5 text-4xl font-bold font-heading text-white md:mb-6 md:text-5xl lg:text-6xl">
                 <?php echo esc_html($heading); ?>

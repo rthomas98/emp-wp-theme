@@ -30,7 +30,7 @@ if (empty($image_url)) {
 ?>
 
 <section class="layout-142 px-[5%] py-16 md:py-24 lg:py-28 bg-white">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="mb-12 md:mb-18 lg:mb-20">
             <div class="mx-auto flex max-w-3xl flex-col items-center text-center">
                 <h2 class="mb-5 text-4xl font-bold font-heading leading-[1.2] text-purple md:mb-6 md:text-5xl lg:text-6xl">

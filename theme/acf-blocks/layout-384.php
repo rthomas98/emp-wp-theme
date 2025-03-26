@@ -57,7 +57,7 @@ if (empty($cards)) {
 ?>
 
 <section class="layout-384 px-[5%]">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="relative grid gap-x-12 py-16 sm:gap-y-12 md:grid-cols-2 md:py-0 lg:gap-x-20">
             <!-- Left column with sticky images -->
             <div class="sticky top-0 hidden h-screen md:flex md:flex-col md:items-center md:justify-center layout-384-images">

@@ -118,7 +118,7 @@ if (empty($buttons)) {
 ?>
 
 <section class="layout-494 px-[5%] py-16 md:py-24 lg:py-28 bg-white">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="relative flex flex-col md:flex-row">
             <div class="w-full md:w-1/2 md:pr-6 lg:pr-10">
                 <div class="mb-8 md:hidden">

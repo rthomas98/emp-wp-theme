@@ -128,7 +128,7 @@ if (empty($cards) || count($cards) < 2) {
 ?>
 
 <section class="layout-131 px-[5%] py-16 md:py-24 lg:py-28 bg-white">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="grid grid-cols-1 items-start gap-y-12 md:grid-cols-2 md:gap-x-8 md:gap-y-16 lg:gap-16">
             <?php foreach ($cards as $card) : ?>
                 <div>

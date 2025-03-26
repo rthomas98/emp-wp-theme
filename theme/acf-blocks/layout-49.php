@@ -125,7 +125,7 @@ if (empty($button_two_link)) {
 ?>
 
 <section class="layout-49 relative px-[5%] py-16 md:py-24 lg:py-28">
-    <div class="container relative z-10">
+    <div class="container relative z-10 mx-auto">
         <div class="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-x-12 md:gap-y-8 lg:gap-x-20">
             <div>
                 <p class="mb-3 font-semibold font-body text-white md:mb-4">

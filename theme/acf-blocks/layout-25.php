@@ -88,7 +88,7 @@ if (!empty($button_secondary)) {
 ?>
 
 <section class="layout-25 px-[5%] py-16 md:py-24 lg:py-28 bg-white">
-    <div class="container">
+    <div class="container mx-auto">
         <div class="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
             <div>
                 <p class="mb-3 font-semibold font-body text-pink md:mb-4">
